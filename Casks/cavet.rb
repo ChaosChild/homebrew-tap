@@ -4,21 +4,21 @@ cask "cavet" do
 
   on_macos do
     on_arm do
-      sha256 "784108b28740b1b4511e62160115fd959506c9b93569bbc0c544049375d6c3c9"
+      sha256 "6dd662134f7645279164a0d7795cfa67937b0a73faa6ea45c88e069f044bbc2a"
       url "https://github.com/ChaosChild/cavet/releases/download/v#{version}/cavet_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "ab89ef94ff33d0115bf016fcc4b557bcd84c8bada85af6e914d101e59abc3604"
+      sha256 "730d7bcc6ee545354a43c2ac333c7e4e78090d93dc01d30de0b19e050e3e6324"
       url "https://github.com/ChaosChild/cavet/releases/download/v#{version}/cavet_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "d4f25af342e80298a4a4d245b6123cef3fdcfae87f3ab14a0912770a786cd094"
+      sha256 "ef02c2747148a95854c8bd13c4cac0dcb2fd20bf914ce12a4e181da912f1697d"
       url "https://github.com/ChaosChild/cavet/releases/download/v#{version}/cavet_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "de216227b32782332b4bfafc1c7e33141400f15dd6b50ec74dff15526479d63d"
+      sha256 "67dd3ddafdb214b60484b2f8c7ea8593fcc7d4c85cdc390a68190c93cb32d266"
       url "https://github.com/ChaosChild/cavet/releases/download/v#{version}/cavet_#{version}_linux_amd64.tar.gz"
     end
   end
